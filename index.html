@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Temperature Convertor</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div id="heading"><h1><em>Temperature Convertor</em></h1></div>
+        </header>
+        <main>
+            <div class="process" id="process">
+                <div class="title">
+                    <h1><em>Convertor</em></h1>
+                </div>
+                <div id="line"><h4>Enter the Value</h4></div>
+                <div id="input1">
+                    <input type="number" placeholder="Enter the value" id="input-value"/>
+                </div>
+                <div id="input2">
+                    <div id="input3">
+                        <h4>From Degrees</h4>
+                        <select name="input" id="from-temp">
+                            <option Value="None" id="None">None</option>
+                            <option Value="Celsius" id="Celsius">Celsius</option>
+                            <option Value="Fahrenheit" id="Fahrenheit">Fahrenheit</option>
+                            <option Value="Kelvin" id="Kelvin">Kelvin</option>
+                        </select>
+                    </div>
+                    <div id="input4">
+                        <h4>To Degrees</h4>
+                        <select name="output" id="to-temp">
+                            <option Value="None" id="None">None</option>
+                            <option Value="Celsius" id="Celsius">Celsius</option>
+                            <option Value="Fahrenheit" id="Fahrenheit">Fahrenheit</option>
+                            <option Value="Kelvin" id="Kelvin">Kelvin</option>
+                        </select>
+                    </div>
+                </div>
+                <button id="button1">Submit</button>
+            </div>
+            <div id="result">
+
+            </div>
+        </main>
+
+        <script src="./script.js">
+
+        </script>
+    </body>
+</html>
